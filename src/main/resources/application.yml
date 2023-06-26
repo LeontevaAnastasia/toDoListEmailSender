@@ -1,0 +1,11 @@
+spring:
+  mail:
+    protocol:
+    host:
+    port:
+    username:
+    password:
+
+
+sender:
+  address:
