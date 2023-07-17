@@ -1,5 +1,10 @@
 package com.taskListEmailSender.toDoListEmailSender.service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@AllArgsConstructor
 public class Mailer {
 
     EmailService emailService;

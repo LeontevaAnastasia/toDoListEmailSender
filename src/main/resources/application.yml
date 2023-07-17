@@ -8,6 +8,8 @@ spring:
 
 rabbit:
   queue: EMAIL_SENDING_TASKS
+  exchange: exchange
+  routing-key: TaskTrackerKey
 
 sender:
   address:

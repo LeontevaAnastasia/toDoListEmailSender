@@ -1,4 +1,4 @@
-package com.taskListEmailSender.toDoListEmailSender.model.dto;
+package com.taskListEmailSender.toDoListEmailSender.to;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,10 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class EmailDto {
-
+@NoArgsConstructor
+public class EmailTo {
     private String recipientAddress;
     private String title;
     private String text;
